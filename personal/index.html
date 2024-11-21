@@ -4,7 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/site-plan.css">
-    <title>Beatboxers</title>
+    <title>Home Page</title>
+    <style> 
+    .content-section {
+        display: flex;
+        gap: 500px;
+        margin-top: 20px;
+    }
+    .image-box {
+        flex: 1;
+        text-align: center;
+    }
+    .image-box img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+    .image-box h2 {
+        margin: 10px 0 5px;
+        font-size: 1.5em;
+    }
+    .image-box p {
+        max-width: 80%;
+        color: #000000;
+        font-size: 1em;
+    }
+    img {
+        width: 750px;
+    }
+    </style>
 </head>
 <body>
     <header>
@@ -17,9 +45,23 @@
             <a href="sounds.html">Sounds</a>
         </nav>
     </header>
-        <img src="images/homewireframe.png" alt="Home Wireframe">
+    <h1>What could be learned?</h1>
+    <div class="container">
+        <div class="content-section">
+            <div class="image-box">
+                <img src="images/cartoon.jpg" alt="Beatboxing Cartoon">
+                <h2><a href="beatboxers.html">Beatboxers</a></h2>
+                <p>In this page, you'll be able to learn the different categories in beatboxing and the many people that specialize in them to get introduced to the beatboxing scene.</p>
+            </div>
+            <div class="image-box">
+                <img src="images/silhouette.jpg" alt="Beatboxing Silhouette">
+                <h2><a href="sounds.html">Sounds</a></h2>
+                <p>In this page, you'll be able to learn how to make different sounds, ranging from the basics to the difficult sounds.</p>
+            </div>
+        </div>
+    </div>
     <footer>
-        <p><a href="site-plan.html">&copy; Rush Hour Rafting 2024 - JP Royales</a></p>
+        <p><a href="site-plan.html">&copy; Beatbox Website - JP Royales</a></p>
         <p><a href="site-plan.html">Site Plan</a></p>
     </footer>
 </body>
