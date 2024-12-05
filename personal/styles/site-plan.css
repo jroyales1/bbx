@@ -82,19 +82,6 @@ p {
   height: 3em;
 }
 
-.primary {
-  background-color: var(#FC7A1E);
-}
-.secondary {
-  background-color: var(#F24C00);
-}
-.accent1 {
-  background-color: var(#E7E7E7);
-}
-.accent2{
-  background-color: var(#000000);
-}
-
 p.colored {
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
